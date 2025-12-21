@@ -18,8 +18,10 @@ body{
     background-color: var(--color-principal);
 }
 
-p{
-    font-weight: 100;
+/*  Barra Decorativa    */
+.decoration-bar{
+    width: 100%;
+    min-height: 2.5rem;
+    background-color: var(--color-secondary);
 }
-
 /*  Estructura y layout */
