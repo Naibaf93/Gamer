@@ -1,0 +1,25 @@
+/*  Variables   */
+:root{
+    --color-principal: #fff;
+    --color-secondary: #329153;
+}
+
+/*  Estilos Generales   */
+
+html{
+    font-size: 10px;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: "Monstserrat", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    background-color: var(--color-principal);
+}
+
+p{
+    font-weight: 100;
+}
+
+/*  Estructura y layout */
