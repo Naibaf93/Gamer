@@ -25,3 +25,67 @@ body{
     background-color: var(--color-secondary);
 }
 /*  Estructura y layout */
+
+.layout{
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "nav nav"
+        "marquee marquee"
+        "slider slider"
+        "high high"
+        "videos videos"
+        "carousel carousel"
+        "main aside"
+    ;
+
+    grid-template-columns: 70% 30%;
+    width: 55vw;
+    min-width: 100rem;
+    margin: 0 auto;
+}
+
+/*  Estilos Header */
+.layout__header{
+    grid-area: header;
+}
+
+/*  Estilos Navegacion */
+.layout__nav{
+    grid-area: nav;
+}
+
+/*  Estilos Marquesina */
+.layout__marquee{
+    grid-area: marquee;
+}
+
+/*  Estilos Slider */
+.layout__slider{
+    grid-area: slider;
+}
+
+/* Estilos highlights */
+.layout__highlights{
+    grid-area: high;
+}
+
+/*  Estilos videos  */
+.layout__videos{
+    grid-area: videos;
+}
+
+/*  Estilos Carrusel */
+.layout__carousel-games{
+    grid-area: carousel;
+}
+
+/*  Estilo Main */
+.layout__main{
+    grid-area: main;
+}
+
+/* Estilos Barra Lateral Aside */
+.layout__aside{
+    grid-area: aside;
+}
