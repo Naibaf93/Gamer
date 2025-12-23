@@ -2,6 +2,7 @@
 :root{
     --color-principal: #fff;
     --color-secondary: #329153;
+    --color-bg-navbar: #333946;
 }
 
 /*  Estilos Generales   */
@@ -61,6 +62,26 @@ body{
 /*  Estilos Navegacion */
 .layout__nav{
     grid-area: nav;
+
+    position: relative;
+    width: 100%;
+}
+
+.nav__navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 5rem;
+    max-height: 5rem;
+    width: 100%;
+    color: var(--color-principal);
+    background-color: var(--color-bg-navbar);
+}
+
+.navbar__submenu{
+    display: none;
 }
 
 /*  Estilos Marquesina */
