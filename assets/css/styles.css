@@ -174,6 +174,7 @@ body{
 .navbar__submenu--small{
     left: auto;
     width: 20%;
+    overflow: visible;
 }
 
 .navbar__submenu--small > .navbar__sublist{
@@ -245,6 +246,12 @@ body{
     font-size: 1.3rem;
     font-weight: 400;
     text-transform: uppercase;
+}
+
+/*  Estilos carrusel submenus */
+.carousel__menu{
+    display: flex;
+    flex-direction: row;
 }
 
 /*  Estilos Marquesina */
