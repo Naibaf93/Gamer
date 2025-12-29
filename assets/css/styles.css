@@ -387,6 +387,15 @@ body{
     color: var(--color-text-marquee);
 }
 
+.marquee__link:hover{
+    color: var(--color-secondary);
+}
+
+.marquee__link::before{
+    content: "+ ";
+    color: var(--color-secondary);
+}
+
 /*  Estilos Slider */
 .layout__slider{
     grid-area: slider;
