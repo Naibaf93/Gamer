@@ -489,6 +489,36 @@ body{
 /* Estilos highlights */
 .layout__highlights{
     grid-area: high;
+    margin-bottom: 3rem;
+}
+
+/* Estilos subencabezados */
+.news__subheader,
+.games__subheader,
+.login__subheader,
+.highlights__subheader,
+.recent__subheader,
+.videos__subheader,
+.last-reviews__subheader{
+    width: 100%;
+    height: 3.5rem;
+    margin-bottom: 3rem;
+    background-color: var(--color-bg-navbar);
+    padding: 0.5rem;
+}
+
+.subheader__title,
+.news__title,
+.list-header__title,
+.last-reviews__link-title{
+    display: inline;
+    font-weight: 400;
+    color: var(--color-principal);
+    font-size: 1.8rem;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    background-color: var(--color-secondary);
+    white-space: nowrap;
 }
 
 /*  Estilos videos  */
