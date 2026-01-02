@@ -586,6 +586,34 @@ body{
     margin-bottom: 1rem;
 }
 
+.highlights__footer-post,
+.footer-post__container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.footer-post__container{
+    gap: 1rem;
+}
+
+.footer-post__views,
+.footer-post__comments{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: var(--color-text-marquee);
+}
+
+.footer-post__views > .fa-solid,
+.footer-post__comments > .fa-solid{
+    margin-right: 0.2rem;
+    font-size: 1.3rem;
+}
+
+.footer-post__comments > a{
+    display: inline;
+}
 /* Estilos subencabezados */
 .news__subheader,
 .games__subheader,
