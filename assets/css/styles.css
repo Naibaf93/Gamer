@@ -614,6 +614,21 @@ body{
 .footer-post__comments > a{
     display: inline;
 }
+
+.footer-post__read-more{
+    color: var(--color-text-marquee);
+    border: 1px solid var(--color-text-marquee);
+    font-weight: 400;
+    font-size: 1.3rem;
+    padding: 0.4rem;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+
+.footer-post__read-more:hover{
+    border: 1px solid var(--color-secondary);
+    color: var(--color-secondary);
+}
 /* Estilos subencabezados */
 .news__subheader,
 .games__subheader,
@@ -646,6 +661,34 @@ body{
 /*  Estilos videos  */
 .layout__videos{
     grid-area: videos;
+    width: 100%;
+}
+
+.videos__container{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.videos__main-video{
+    flex-basis: 65%;
+    padding-bottom: 3rem;
+}
+
+.main-video__yt-video{
+    width: 100%;
+    height: 40rem;
+    margin-bottom: 2rem;
+}
+
+.main-video__yt-video > iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.main-video__title{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
 }
 
 /*  Estilos Carrusel */
