@@ -614,6 +614,21 @@ body{
 .footer-post__comments > a{
     display: inline;
 }
+
+.footer-post__read-more{
+    color: var(--color-text-marquee);
+    border: 1px solid var(--color-text-marquee);
+    font-weight: 400;
+    font-size: 1.3rem;
+    padding: 0.4rem;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+
+.footer-post__read-more:hover{
+    border: 1px solid var(--color-secondary);
+    color: var(--color-secondary);
+}
 /* Estilos subencabezados */
 .news__subheader,
 .games__subheader,
