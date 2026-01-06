@@ -880,6 +880,7 @@ body{
     position: relative;
     overflow: hidden;
     flex-basis: 50%;
+    height: 20rem;
 }
 
 .main-post__img{
@@ -892,8 +893,22 @@ body{
     transform: scale(1.1);
 }
 
+.main-post__container-category{
+    position: absolute;
+    left: 0;
+    bottom: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--color-secondary);
+    transition: all 300ms ease-in-out;
+}
+
+.main-post__container-category:hover{
+    background-color: var(--color-bg-navbar);
+}
+
 .main-post__category{
-    color: inherit;
+    display: block;
+    color: var(--color-principal);
 }
 
 .main-post__info{
