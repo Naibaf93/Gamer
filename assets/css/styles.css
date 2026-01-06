@@ -569,7 +569,8 @@ body{
 
 .highlights__author,
 .main-video__author,
-.video__author{
+.video__author,
+.main-post__container-author{
     font-weight: 700;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -578,7 +579,8 @@ body{
 
 .highlights__date,
 .main-video__date,
-.video__date{
+.video__date,
+.main-post__date{
     font-weight: 400;
     text-transform: uppercase;
     font-size: 1.2rem;
@@ -913,6 +915,32 @@ body{
 
 .main-post__info{
     flex-basis: 50%;
+}
+
+.main-post__title{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.main-post__link-title{
+    color: var(--color-titles);
+    transition: all 300ms ease-in-out;
+}
+
+.main-post__title:hover .main-post__link-title{
+    color: var(--color-secondary);
+}
+
+.main-post__meta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.main-post__author{
+    color: inherit;
 }
 
 /* Estilos Barra Lateral Aside */
