@@ -596,20 +596,24 @@ body{
 }
 
 .highlights__footer-post,
-.footer-post__container{
+.footer-post__container,
+.footer-info__container{
     display: flex;
     justify-content: space-between;
     margin-bottom: 2rem;
 }
 
-.footer-post__container{
+.footer-post__container,
+.footer-info__container{
     gap: 1rem;
 }
 
 .footer-post__views,
 .footer-post__comments,
 .main-video__views,
-.main-video__comments{
+.main-video__comments,
+.main-post__views,
+.main-post__comments{
     display: inline-block;
     font-weight: 400;
     font-size: 1.3rem;
@@ -619,7 +623,9 @@ body{
 .footer-post__views > .fa-solid,
 .footer-post__comments > .fa-solid,
 .main-video__views > .fa-solid,
-.main-video__comments > .fa-solid{
+.main-video__comments > .fa-solid,
+.main-post__views > .fa-solid,
+.main-post__comments > .fa-solid{
     margin-right: 0.2rem;
     font-size: 1.3rem;
 }
@@ -632,7 +638,8 @@ body{
     color: inherit;
 }
 
-.footer-post__read-more{
+.footer-post__read-more,
+.main-post__read-more{
     color: var(--color-text-marquee);
     border: 1px solid var(--color-text-marquee);
     font-weight: 400;
@@ -642,7 +649,8 @@ body{
     margin-bottom: 2rem;
 }
 
-.footer-post__read-more:hover{
+.footer-post__read-more:hover,
+.main-post__read-more:hover{
     border: 1px solid var(--color-secondary);
     color: var(--color-secondary);
 }
@@ -940,6 +948,22 @@ body{
 }
 
 .main-post__author{
+    color: inherit;
+}
+
+.main-post__description{
+    font-size: 1.5rem;
+    color: var(--color-titles);
+    margin-bottom: 1rem;
+}
+
+.main-post__footer-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-post__btn{
     color: inherit;
 }
 
