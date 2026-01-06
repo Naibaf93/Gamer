@@ -572,7 +572,7 @@ body{
     font-weight: 700;
     font-size: 1.2rem;
     text-transform: uppercase;
-    color: var(--color-secondary) !important;
+    color: var(--color-secondary);
 }
 
 .highlights__date,
@@ -806,12 +806,19 @@ body{
     text-align: center;
     padding: 0 1rem;
     transition: all 300ms;
+    color: var(--color-principal);
 }
 
 .carousel-games__category{
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-shadow: 1px 1px 3px var(--color-titles);
+    color: var(--color-principal);
+    transition: all 300ms ease;
+}
+
+.carousel-games__category:hover {
+    color: var(--color-secondary);
 }
 
 /*  Estilo Main */
