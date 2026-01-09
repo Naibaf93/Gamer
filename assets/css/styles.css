@@ -538,13 +538,13 @@ body{
 }
 
 .highlights__category:hover,
-.game__container-category:hover
+.game__container-category:hover,
 .post__container-category:hover{
     background-color: var(--color-bg-navbar);
 }
 
 .highlights__name-category,
-.game__category
+.game__category,
 .post__category{
     display: block;
     font-weight: 400;
