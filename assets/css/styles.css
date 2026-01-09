@@ -1193,3 +1193,12 @@ body{
     font-weight: 400;
     margin-bottom: 1rem;
 }
+
+.login__register,
+.login__lost-pass{
+    display: block;
+    color: var(--color-secondary);
+    font-weight: 500;
+}
+
+/*  Estilos redes sociales */
