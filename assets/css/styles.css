@@ -10,6 +10,7 @@
     --color-text-marquee: #7C7C7C;
     --color-titles: #333333;
     --color-bg-aside: #F5F5F5;
+    --color-twitter: #2FC2EF;
 }
 
 /*  Estilos Generales   */
@@ -1202,3 +1203,50 @@ body{
 }
 
 /*  Estilos redes sociales */
+.aside__social{
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.social__list{
+    width: 100%;
+}
+
+.social__item{
+    width: 100%;
+    padding: 1rem 2rem;
+    color: var(--color-principal);
+    transition: all 300ms ease;
+    background-color: var(--color-twitter);
+}
+
+.social__item:hover{
+    padding-left: 3rem;
+}
+
+.social__link{
+    display: flex;
+    flex-direction: row;
+    color: var(--color-principal);
+}
+
+.social__icon{
+    margin-right: 1.2rem;
+    margin-top: 0.2rem;
+}
+
+.social__icon > .fa-brands{
+    font-size: 3.6rem;
+}
+
+.social__number{
+    font-size: 1.8rem;
+    line-height: 1;
+}
+
+.social__word{
+    line-height: 1;
+    font-size: 1.3rem;
+    opacity: 0.75;
+}
