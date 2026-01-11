@@ -9,6 +9,8 @@
     --color-bg-marquee: #EEEEEE;
     --color-text-marquee: #7C7C7C;
     --color-titles: #333333;
+    --color-bg-aside: #F5F5F5;
+    --color-twitter: #2FC2EF;
 }
 
 /*  Estilos Generales   */
@@ -1143,4 +1145,108 @@ body{
 /* Estilos Barra Lateral Aside */
 .layout__aside{
     grid-area: aside;
+    background-color: var(--color-bg-aside);
+    padding: 1.5rem;
+    height: fit-content;
+}
+
+.login__container{
+    width: 100%;
+}
+
+.login__form{
+    width: 100%;
+}
+
+.form__container-username,
+.form__container-password,
+.form__container-remember{
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.form__label{
+    font-weight: 400;
+}
+
+.form__input{
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    padding: 0.5rem;
+}
+
+.form__container-remember .form__label,
+.form__container-remember .form__input{
+    width: auto;
+    display: inline;
+}
+
+.form__submit{
+    width: 100%;
+    height: 3.7rem;
+    background-color: var(--color-secondary);
+    color: var(--color-principal);
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    border-radius: 0.3rem;
+    padding: 0.7rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.login__register,
+.login__lost-pass{
+    display: block;
+    color: var(--color-secondary);
+    font-weight: 500;
+}
+
+/*  Estilos redes sociales */
+.aside__social{
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.social__list{
+    width: 100%;
+}
+
+.social__item{
+    width: 100%;
+    padding: 1rem 2rem;
+    color: var(--color-principal);
+    transition: all 300ms ease;
+    background-color: var(--color-twitter);
+}
+
+.social__item:hover{
+    padding-left: 3rem;
+}
+
+.social__link{
+    display: flex;
+    flex-direction: row;
+    color: var(--color-principal);
+}
+
+.social__icon{
+    margin-right: 1.2rem;
+    margin-top: 0.2rem;
+}
+
+.social__icon > .fa-brands{
+    font-size: 3.6rem;
+}
+
+.social__number{
+    font-size: 1.8rem;
+    line-height: 1;
+}
+
+.social__word{
+    line-height: 1;
+    font-size: 1.3rem;
+    opacity: 0.75;
 }
