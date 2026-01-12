@@ -11,6 +11,10 @@
     --color-titles: #333333;
     --color-bg-aside: #F5F5F5;
     --color-twitter: #2FC2EF;
+    --color-facebook: #4C66A4;
+    --color-instagram: #EA4C89;
+    --color-youtube: #CC181E;
+    --color-linkedin: #F4A62A;    
 }
 
 /*  Estilos Generales   */
@@ -1249,4 +1253,24 @@ body{
     line-height: 1;
     font-size: 1.3rem;
     opacity: 0.75;
+}
+
+.social__item--blue{
+    background-color: var(--color-twitter);
+}
+
+.social__item--dark-blue{
+    background-color: var(--color-facebook);
+}
+
+.social__item--red{
+    background-color: var(--color-youtube);
+}
+
+.social__item--pink{
+    background-color: var(--color-instagram);
+}
+
+.social__item--yellow{
+    background-color: var(--color-linkedin);
 }
