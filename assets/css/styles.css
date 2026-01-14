@@ -719,7 +719,7 @@ body{
     display: inline;
     font-weight: 400;
     color: var(--color-principal);
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     padding: 0.5rem;
     text-transform: uppercase;
     background-color: var(--color-secondary);
@@ -1383,4 +1383,24 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+/*  Estilos ultimas reviews */
+.aside__last-reviews{
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.aside__last-reviews .last-reviews__subheader{
+    padding: 0.15rem 0.5rem;
+}
+
+.aside__last-reviews .last-reviews__list-header{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.aside__last-reviews .last-reviews__link-title--small{
+    background: none;
+    font-size: 1.1rem;
 }
