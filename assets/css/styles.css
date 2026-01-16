@@ -14,7 +14,8 @@
     --color-facebook: #4C66A4;
     --color-instagram: #EA4C89;
     --color-youtube: #CC181E;
-    --color-linkedin: #F4A62A;    
+    --color-linkedin: #F4A62A;
+    --color-footer: #222222;    
 }
 
 /*  Estilos Generales   */
@@ -1488,4 +1489,8 @@ body{
     border-color: var(--color-secondary);
 }
 
-/**/
+/* Estilos footer */
+.layout__footer{
+    width: 100%;
+    background-color: var(--color-footer);
+}
