@@ -1494,4 +1494,15 @@ body{
 .layout__footer{
     width: 100%;
     background-color: var(--color-footer);
+    color: var(--color-principal);
+}
+
+.footer__container{
+    width: 55%;
+    min-width: 100rem;
+    margin: 0 auto;
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
 }
