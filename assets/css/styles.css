@@ -1608,6 +1608,22 @@ body{
 .list-popular__author{
     text-transform: uppercase;
     color: var(--color-secondary);
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 400;
+}
+
+
+.list-popular__meta-info{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.list-popular__views,
+.list-popular__comments{
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color: var(--color-text-marquee);
+    margin-right: 1rem;
 }
