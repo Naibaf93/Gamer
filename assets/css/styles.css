@@ -1685,3 +1685,16 @@ body{
     font-weight: 700;
     color: var(--color-principal);
 }
+
+.footer__description{
+    padding: 2rem;
+    color: var(--color-secondary);
+    background-color: var(--color-footer-down);
+}
+
+.footer__text{
+    width: 55%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    white-space: nowrap;
+}
