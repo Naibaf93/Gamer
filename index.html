@@ -11,6 +11,7 @@
     <!--Estilos-->
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
 
     <!-- Cargar el Javascript -->
     <script src="assets/js/app.js" defer></script>
@@ -38,6 +39,14 @@
         <!--Navegación-->
         <section class="layout__nav">
             <nav class="nav__navbar">
+                
+                <!--Boton menu responsive -->
+                <div class="navbar__mobile-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <!--Menu Responsive-->
+
+                <!--Navegacion escritorio-->
                 <ul class="navbar__list">
                     <li class="navbar__item">
                         <a href="#" class="navbar__link">Noticias</a>
@@ -579,6 +588,8 @@
                         </div>
                     </li>
                 </ul>
+
+                <!--Buscador-->
 
                 <form class="navbar__search">
                     <input type="text" class="search__input" name="search" placeholder="Buscar">
