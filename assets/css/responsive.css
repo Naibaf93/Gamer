@@ -155,4 +155,18 @@
     .videos__video{
         width: calc(50% - 1rem);
     }
+
+    /* Carrusel */
+    .carousel-games__item{
+        width: 100%;
+    }
+
+    .carousel-games__item--hidden{
+        display: none;
+    }
+
+    /* Barra lateral */
+    .layout__aside{
+        margin-bottom: 3rem;
+    }
 }
