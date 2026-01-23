@@ -162,7 +162,7 @@
 
     /* Carrusel */
     .carousel-games__item{
-        width: 100%;
+        width: auto;
     }
 
     .carousel-games__item--hidden{
