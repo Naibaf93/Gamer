@@ -169,4 +169,27 @@
     .layout__aside{
         margin-bottom: 3rem;
     }
+
+    /* Pie de pagina */
+    .footer__container{
+        width: 70%;
+        min-width: 70rem;
+        flex-direction: column;
+    }
+
+    .footer__left-container,
+    .footer__center-container,
+    .footer__right-container{
+        width: 100%;
+    }
+
+    .footer__slider{
+        width: auto;
+        height: auto;
+    }
+
+    .footer__text{
+        text-align: center;
+        margin: 0 auto;
+    }
 }
