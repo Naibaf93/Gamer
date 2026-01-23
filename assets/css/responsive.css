@@ -27,6 +27,10 @@
         ;
     }
 
+    .layout__main{
+        margin-right: 0rem;
+    }
+
     /* Cabecera */
     .layout__header{
         display: flex;
@@ -218,6 +222,10 @@
         height: 20.25rem;
     }
 
+    .slider__category {
+        font-size: 1.2rem;
+    }
+
     .slider__link-title{
         font-size: 1.1rem;
     }
@@ -230,6 +238,130 @@
     }
 }
 
-@media (max-width: 775px){
-    
+@media (max-width: 592px){
+    /* Layout */
+    .layout{
+        width: 100%;
+        min-width: 35rem;
+        margin: 0 auto;
+    }
+
+    /* Slider */
+    .layout__slider {
+        grid-template-areas: "slider1 slider1 slider1 slider1"
+                             "slider2 slider2 slider2 slider2"
+                             "slider3 slider3 slider3 slider3"
+                             "slider4 slider4 slider4 slider4"
+                             "slider5 slider5 slider5 slider5"
+                             ;
+                             column-gap: 0;
+                             grid-template-columns: 100%;
+    }
+
+    .slider__container--slider2{
+        width: 100%;
+        height: auto;
+    }
+
+    .slider__container--slider3{
+        width: 100%;
+        height: auto;
+    }
+
+    .slider__container--slider5{
+        width: 100%;
+        height: auto;
+    }
+
+    .slider__category {
+        font-weight: bold;
+        font-size: 1.7rem;
+    }
+
+    .slider__link-title{
+        font-size: 1.5rem;
+    }
+
+    /* Mejores momentos */
+    .highlights__posts {
+        flex-direction: row;
+    }
+
+    .highlights__post{
+        width: 100%;
+    }
+
+    /* Videos */
+    .main-video__yt-video{
+        height: 30rem;
+    }
+    .videos__list {
+        flex-direction: column;
+    }
+
+    .videos__video{
+        width: 100%;
+    }
+
+    /* Carrusel */
+    .carousel-games__item--hidden-small{
+        display: none;
+    }
+
+    /*  Noticias */
+    .news__main-post{
+        flex-direction: column;
+    }
+
+    .news__list{
+        flex-direction: column;
+    }
+
+    /* Juegos */
+    .games__container{
+        flex-direction: column;
+    }
+
+    .games__game{
+        width: 100%;
+    }
+
+    /* Posts */
+    .posts__container{
+        flex-direction: column;
+    }
+
+    .posts__post{
+        flex-basis: 100%;
+    }
+
+    .post__img{
+        width: 100%;
+    }
+
+    /* Pie de pagina */
+    .footer__container{
+        width: 30%;
+        min-width: 30rem;
+    }
+
+    .footer__text{
+        width: 100%;
+    }
+}
+
+@media (max-width: 350px) {
+    /* Layout */
+    .layout{
+        width: 100%;
+        min-width: auto;
+        margin: 0;
+    }
+
+    /* Pie de pagina */
+    .footer__container{
+        width: 10%;
+        min-width: auto;
+        margin: 0;
+    }
 }
