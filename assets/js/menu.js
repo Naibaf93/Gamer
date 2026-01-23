@@ -39,4 +39,14 @@ document.addEventListener("DOMContentLoaded", (e) => {
     // Ejecutar funcionalidad
     submenu(dropDown1Btn, dropDown1Submenu, "drop1");
     submenu(dropDown2Btn, dropDown2Submenu, "drop2");
+
+    // Redimensionado
+    window.addEventListener("resize", () => {
+        let win = parseFloat(document.body.clientWidth);
+
+        if(win > 1024) {
+            mobileMenu.style.display = "none";
+            mobileMenu.classList.remove("menu_open");
+        }
+    });
 });
