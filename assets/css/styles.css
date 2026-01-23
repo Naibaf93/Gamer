@@ -1113,8 +1113,8 @@ body{
     top: 0;
     left: 0;
     right: 0;
-    padding: 0.5rem 1rem;
-    padding-right: 5rem;
+    padding: 0.4rem 0;
+    padding-right: 0;
     background-color: rgba(0, 0, 0, 0.2);
 }
 
