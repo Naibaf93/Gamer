@@ -459,6 +459,7 @@ body{
     transform: scale(1.1);
 }
 
+/*
 .slider__info{
     position: absolute;
     bottom: 0;
@@ -467,6 +468,7 @@ body{
     padding: 1rem;
     color: var(--color-principal);
 }
+    */
 
 .slider__category{
     font-weight: 400;
@@ -1654,7 +1656,7 @@ body{
     width: 100%;
     position: absolute;
     top: 37%;
-    text-align: center;
+    text-align: start;
     color: var(--color-principal);
     padding: 0 1rem;
 }
