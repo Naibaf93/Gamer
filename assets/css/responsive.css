@@ -52,7 +52,7 @@
     .navbar__mobile-list{
         display: none;
         position: absolute;
-        padding: 1.5rem;
+        padding: auto;
         top: 98%;
         width: 100%;
         background-color: var(--color-bg-navbar);
@@ -68,7 +68,7 @@
     .mobile-list__container{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
     }
 
