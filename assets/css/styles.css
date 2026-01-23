@@ -1653,12 +1653,16 @@ body{
 }
 
 .slider__info{
-    width: 100%;
+    width: auto;
     position: absolute;
     top: 37%;
     text-align: start;
     color: var(--color-principal);
     padding: 0 1rem;
+}
+
+.slider__info-footer{
+    text-align: center;
 }
 
 .slider__category{
